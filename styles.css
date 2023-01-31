@@ -1,0 +1,22 @@
+html {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .PageLink {
+    text-align: center;
+  }
+
+  .large {
+    font-size: 60px;
+  }
+
+  .small {
+    font-size: 60px;
+  }
