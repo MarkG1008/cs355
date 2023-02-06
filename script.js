@@ -2,16 +2,8 @@ const mybtn = document.getElementById('myBtn');
 mybtn.addEventListener('click',buttonClicked);
 
 function buttonClicked(e){
-    document.getElementById("title").className="hover";
-
-
+    document.getElementById("header").className="large";
 }
-
-const mybtn2 = document.getElementById('myBtn2');
-mybtn.addEventListener('click',buttonClicked);
-
-function buttonClicked(e){
-    document.getElementById("title").className="hover";
-
-
+function myFunction(element,color){
+    element.style.color = color;
 }
